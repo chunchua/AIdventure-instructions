@@ -104,6 +104,10 @@
   .teaser p { margin:.4em 0 0; font:600 clamp(16px, .9vw + 14px, 20px)/1.45 var(--body); }
   .teaser b { color:var(--white); } .teaser .prize { color:var(--hot); text-shadow:0 0 14px #ff9a1f77; }
   .teaser .label { font-size:.85em; }
+  .goals { list-style:none; margin:.6em 0 0; padding:0; }
+  .goals li { display:flex; gap:12px; align-items:flex-start; margin:.7em 0; font:600 clamp(16px, .9vw + 14px, 20px)/1.4 var(--body); }
+  .goals li i { width:12px; height:12px; margin-top:.45em; border-radius:50%; background:var(--orange); box-shadow:0 0 12px var(--orange); flex:none; }
+  .goals small { display:block; margin-top:2px; font:500 .8em/1.4 var(--body); color:var(--soft); font-style:italic; }
   @media (min-width:640px) { .teaser { grid-template-columns:minmax(0, 1.1fr) minmax(0, 1fr); } }
 
   /* buttons */
@@ -261,7 +265,11 @@
         <div class="shot"><img src="img/seminar.gif" alt="Scenes from the AIdventure story: a lighthouse in the fog, a brass lantern, a captain's log and a tentacle rising from a storm" width="480" height="271" loading="lazy"></div>
         <div class="copy">
           <div class="label">Something stirs beyond the fog…</div>
-          <p>Learn to identify different <b>AI capabilities</b>. Level up your <b>AI discernment</b>. And compete to win up to <b class="prize">$400 in retail vouchers</b>.</p>
+          <ul class="goals">
+            <li><i></i><span>Learn to identify different <b>AI capabilities</b><small>e.g. Vibe Computer-Aided Design (CAD), Personal AI Agents</small></span></li>
+            <li><i></i><span>Level up your <b>AI discernment</b><small>e.g. test your prompting skills for image generation</small></span></li>
+            <li><i></i><span>Compete to win up to <b class="prize">$400 in retail vouchers</b></span></li>
+          </ul>
           <p class="note">Your phone is your game controller. Be ready to play!</p>
         </div>
       </div>
